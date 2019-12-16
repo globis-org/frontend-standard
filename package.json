@@ -27,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/globis-org/frontend-standard/issues"
   },
-  "homepage": "https://github.com/globis-org/frontend-standard#readme"
+  "homepage": "https://github.com/globis-org/frontend-standard#readme",
+  "devDependencies": {
+    "husky": "3.1.0",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1"
+  }
 }
