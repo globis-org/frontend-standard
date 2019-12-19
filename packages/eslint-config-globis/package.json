@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-globis",
+  "version": "0.0.1",
+  "description": "standard configuration of eslint at globis",
+  "main": "none",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
+  },
+  "private": false,
+  "keywords": [
+    "lint",
+    "react",
+    "es",
+    "globis",
+    "jsx",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo test",
+    "lint": "echo lint"
+  }
+}

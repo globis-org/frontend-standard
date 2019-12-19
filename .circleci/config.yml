@@ -1,0 +1,55 @@
+version: 2.1
+
+executors:
+  default:
+    docker:
+      - image: circleci/node:lts-browsers
+    working_directory: ~/repo
+
+commands:
+  install_node_modules:
+    description: 'install npm dependencies'
+    steps:
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+      - restore_cache:
+          keys:
+            - v1-yarn-cache-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install dependencies
+          command: yarn install --cache-folder ~/.cache/yarn
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      - save_cache:
+          key: v1-yarn-cache-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+
+jobs:
+  lint:
+    executor: default
+    steps:
+      - checkout
+      - install_node_modules
+      - run:
+          name: Lint
+          command: yarn lint
+
+  test:
+    executor: default
+    steps:
+      - checkout
+      - install_node_modules
+      - run:
+          name: Test
+          command: yarn test
+
+workflows:
+  version: 2.1
+  build-and-test:
+    jobs:
+      - lint
+      - test

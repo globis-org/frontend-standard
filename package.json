@@ -2,9 +2,6 @@
   "name": "@globis/frontend-standard",
   "version": "0.0.1",
   "description": "standard configuraton for frontend development at globis",
-  "scripts": {
-    "test": "echo test"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
@@ -27,5 +24,25 @@
   "bugs": {
     "url": "https://github.com/globis-org/frontend-standard/issues"
   },
-  "homepage": "https://github.com/globis-org/frontend-standard#readme"
+  "homepage": "https://github.com/globis-org/frontend-standard#readme",
+  "devDependencies": {
+    "husky": "3.1.0",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1"
+  },
+  "scripts": {
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
