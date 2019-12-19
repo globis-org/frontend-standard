@@ -13,7 +13,7 @@ PRs accepted.
 ### Run test
 
 ```
-yarn workspaces run test --all
+yarn workspaces run test
 ```
 
 ## License
