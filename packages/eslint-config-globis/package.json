@@ -20,5 +20,20 @@
   "scripts": {
     "test": "echo test",
     "lint": "echo lint"
+  },
+  "peerDependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.12.0",
+    "@typescript-eslint/parser": "2.12.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0"
   }
 }
