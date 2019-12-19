@@ -38,15 +38,6 @@ jobs:
           name: Lint
           command: yarn lint
 
-  tsc:
-    executor: default
-    steps:
-      - checkout
-      - install_node_modules
-      - run:
-          name: TypeScript
-          command: yarn tsc
-
   test:
     executor: default
     steps:
@@ -61,5 +52,4 @@ workflows:
   build-and-test:
     jobs:
       - lint
-      - tsc
       - test

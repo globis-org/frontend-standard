@@ -19,7 +19,6 @@
   ],
   "scripts": {
     "test": "echo test",
-    "tsc": "echo tsc",
     "lint": "echo lint"
   }
 }

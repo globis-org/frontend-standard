@@ -32,7 +32,6 @@
   },
   "scripts": {
     "test": "yarn workspaces run test",
-    "tsc": "yarn workspaces run tsc",
     "lint": "yarn workspaces run test"
   },
   "husky": {
