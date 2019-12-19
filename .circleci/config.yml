@@ -12,19 +12,19 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - v1.1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-{{ checksum "package.json" }}
       - restore_cache:
           keys:
-            - v1.1-yarn-cache-{{ checksum "yarn.lock" }}
+            - v1-yarn-cache-{{ checksum "yarn.lock" }}
       - run:
           name: Install dependencies
           command: yarn install --cache-folder ~/.cache/yarn
       - save_cache:
           paths:
             - node_modules
-          key: v1.1-dependencies-{{ checksum "package.json" }}
+          key: v1-dependencies-{{ checksum "package.json" }}
       - save_cache:
-          key: v1.1-yarn-cache-{{ checksum "yarn.lock" }}
+          key: v1-yarn-cache-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
 
