@@ -18,6 +18,8 @@
     "typescript"
   ],
   "scripts": {
-    "test": "echo test"
+    "test": "echo test",
+    "tsc": "echo tsc",
+    "lint": "echo lint"
   }
 }
