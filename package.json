@@ -1,39 +1,40 @@
 {
+  "private": true,
   "name": "@globis/frontend-standard",
-  "version": "0.0.1",
   "description": "standard configuraton for frontend development at globis",
+  "license": "MIT",
+  "homepage": "https://github.com/globis-org/frontend-standard#readme",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
   },
-  "private": true,
+  "bugs": {
+    "url": "https://github.com/globis-org/frontend-standard/issues"
+  },
+  "version": "0.0.1",
   "workspaces": {
     "packages": [
       "packages/*"
     ]
   },
-  "keywords": [
-    "lint",
-    "react",
-    "es",
-    "globis",
-    "jsx",
-    "typescript"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/globis-org/frontend-standard/issues"
+  "scripts": {
+    "lint": "yarn workspaces run test",
+    "test": "yarn workspaces run test"
   },
-  "homepage": "https://github.com/globis-org/frontend-standard#readme",
   "devDependencies": {
+    "eslint": "6.7.2",
     "husky": "3.1.0",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1"
   },
-  "scripts": {
-    "test": "yarn workspaces run test",
-    "lint": "yarn workspaces run test"
-  },
+  "keywords": [
+    "es",
+    "globis",
+    "jsx",
+    "lint",
+    "react",
+    "typescript"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"

@@ -1,24 +1,39 @@
 {
+  "private": false,
   "name": "eslint-config-globis",
-  "version": "0.0.1",
   "description": "standard configuration of eslint at globis",
-  "main": "none",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
   },
-  "private": false,
+  "version": "0.0.1",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "echo lint",
+    "test": "echo test"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.12.0",
+    "@typescript-eslint/parser": "2.12.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.7.2",
+    "prettier": "^1.19.1"
+  },
   "keywords": [
-    "lint",
-    "react",
     "es",
     "globis",
     "jsx",
+    "lint",
+    "react",
     "typescript"
-  ],
-  "scripts": {
-    "test": "echo test",
-    "lint": "echo lint"
-  }
+  ]
 }
