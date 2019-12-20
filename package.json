@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "lint": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint",
     "test": "yarn workspaces run test"
   },
   "devDependencies": {
