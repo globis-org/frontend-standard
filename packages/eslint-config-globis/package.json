@@ -8,7 +8,7 @@
     "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
   },
   "version": "0.0.1",
-  "main": "./index.js",
+  "main": "index.js",
   "scripts": {
     "lint": "echo lint",
     "test": "echo test"
@@ -26,7 +26,8 @@
   },
   "peerDependencies": {
     "eslint": "^6.7.2",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
   },
   "keywords": [
     "es",
