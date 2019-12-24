@@ -19,6 +19,5 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
-    '@typescript-eslint/prefer-interface': 'off',
   },
 }
