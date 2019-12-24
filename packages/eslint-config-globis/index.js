@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks', './shared.js'],
+  extends: ['airbnb', 'airbnb/hooks', './shared.js', 'prettier/react'],
   rules: {
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 0,
