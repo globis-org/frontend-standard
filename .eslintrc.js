@@ -1,3 +1,4 @@
 module.exports = {
-  extends: ['./packages/eslint-config-globis/base.js']
+  extends: ['airbnb/base', 'plugin:prettier/recommended'],
+  plugins: ['prettier'],
 }
