@@ -13,38 +13,29 @@
   },
   "version": "0.0.1",
   "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
+    "packages": ["packages/*"]
   },
   "scripts": {
     "lint": "eslint --cache .",
-    "test": "yarn workspaces run test"
+    "test": "yarn workspaces run test",
+    "release:prepare": "shipjs prepare",
+    "release:trigger": "shipjs trigger"
   },
   "devDependencies": {
     "eslint": "6.8.0",
     "husky": "3.1.0",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
+    "shipjs": "0.12.0",
     "typescript": "3.7.4"
   },
-  "keywords": [
-    "es",
-    "globis",
-    "jsx",
-    "lint",
-    "react",
-    "typescript"
-  ],
+  "keywords": ["es", "globis", "jsx", "lint", "react", "typescript"],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
-    ]
+    "*.{js,jsx,ts,tsx}": ["eslint --fix", "git add"]
   }
 }
