@@ -14,7 +14,7 @@ jobs:
       - run: |
             git config --global user.email "sys.gdp@globis.co.jp"
             git config --global user.name "sys-gdp"
-      - run: yarn release:prepare -- --yes --no-browse
+      - run: yarn release:prepare --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
