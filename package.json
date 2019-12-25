@@ -11,9 +11,11 @@
   "bugs": {
     "url": "https://github.com/globis-org/frontend-standard/issues"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "workspaces": {
-    "packages": ["packages/*"]
+    "packages": [
+      "packages/*"
+    ]
   },
   "scripts": {
     "lint": "eslint --cache .",
@@ -29,13 +31,23 @@
     "shipjs": "0.12.1",
     "typescript": "3.7.4"
   },
-  "keywords": ["es", "globis", "jsx", "lint", "react", "typescript"],
+  "keywords": [
+    "es",
+    "globis",
+    "jsx",
+    "lint",
+    "react",
+    "typescript"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["eslint --fix", "git add"]
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
