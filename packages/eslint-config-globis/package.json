@@ -7,15 +7,15 @@
     "type": "git",
     "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
   },
-  "version": "0.0.1",
+  "version": "0.1.1",
   "main": "index.js",
   "scripts": {
     "lint": "echo lint",
     "test": "echo test"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.12.0",
-    "@typescript-eslint/parser": "2.12.0",
+    "@typescript-eslint/eslint-plugin": "2.13.0",
+    "@typescript-eslint/parser": "2.13.0",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-prettier": "6.7.0",
     "eslint-plugin-import": "2.19.1",
