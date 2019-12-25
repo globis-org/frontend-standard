@@ -6,6 +6,8 @@ globis frontend standard configs.
 
 This is a mono-repository using yarn workspace.
 
+- [eslint-config-globis](packages/eslint-config-globis)
+
 ## Contributing
 
 PRs accepted.
