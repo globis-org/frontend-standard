@@ -10,16 +10,11 @@ jobs:
           fetch-depth: 0
           ref: master
       - uses: actions/setup-node@master
-      - run: |
-          if [ -f "yarn.lock" ]; then
-            yarn install
-          else
-            npm install
-          fi
+      - run: yarn install
       - run: |
             git config --global user.email "sys.gdp@globis.co.jp"
             git config --global user.name "sys-gdp"
-      - run: npm run release:prepare -- --yes --no-browse
+      - run: yarn release:prepare -- --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
