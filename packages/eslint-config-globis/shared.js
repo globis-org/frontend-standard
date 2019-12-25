@@ -1,7 +1,9 @@
 module.exports = {
   extends: [
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:prettier/recommended',
-    'prettier/react',
     'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
@@ -19,6 +21,5 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
-    '@typescript-eslint/prefer-interface': 'off',
   },
 }
