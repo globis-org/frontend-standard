@@ -1,6 +1,8 @@
 module.exports = {
   extends: ['airbnb', 'airbnb/hooks', './shared.js', 'prettier/react'],
   rules: {
+    // FixMe https://github.com/benmosher/eslint-plugin-import/issues/1558
+    'import/extensions': ['error', 'never'],
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 0,
     // FixMe https://github.com/yannickcr/eslint-plugin-react/issues/1846
