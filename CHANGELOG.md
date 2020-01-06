@@ -1,3 +1,18 @@
+## [0.2.2](https://github.com/globis-org/frontend-standard/compare/v0.2.1...v0.2.2) (2020-01-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-prettier to v6.9.0 ([#24](https://github.com/globis-org/frontend-standard/issues/24)) ([6eed7af](https://github.com/globis-org/frontend-standard/commit/6eed7af27907766b9423de4547996474d61bea56))
+* **deps:** update typescript-eslint monorepo to v2.14.0 ([#25](https://github.com/globis-org/frontend-standard/issues/25)) ([76cc3d0](https://github.com/globis-org/frontend-standard/commit/76cc3d0655c7ca1b0d65b939605f24587e5b0472))
+
+
+### Reverts
+
+* Revert "chore: Downgrade eslint-plugin-import (#27)" (#29) ([4baf549](https://github.com/globis-org/frontend-standard/commit/4baf549c18eccae0b7a72e3242156fb9b6bdd4b7)), closes [#27](https://github.com/globis-org/frontend-standard/issues/27) [#29](https://github.com/globis-org/frontend-standard/issues/29)
+
+
+
 ## [0.2.1](https://github.com/globis-org/frontend-standard/compare/v0.2.0...v0.2.1) (2019-12-26)
 
 
