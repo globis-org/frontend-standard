@@ -1,3 +1,12 @@
+## [0.2.3](https://github.com/globis-org/frontend-standard/compare/v0.2.2...v0.2.3) (2020-01-07)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v2.15.0 ([#32](https://github.com/globis-org/frontend-standard/issues/32)) ([b208b2c](https://github.com/globis-org/frontend-standard/commit/b208b2c1206de594b00a716bb3ca5bb293344a25))
+
+
+
 ## [0.2.2](https://github.com/globis-org/frontend-standard/compare/v0.2.1...v0.2.2) (2020-01-06)
 
 
