@@ -14,8 +14,8 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.14.0",
-    "@typescript-eslint/parser": "2.14.0",
+    "@typescript-eslint/eslint-plugin": "2.15.0",
+    "@typescript-eslint/parser": "2.15.0",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-import": "2.19.1",
