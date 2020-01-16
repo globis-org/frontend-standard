@@ -5,11 +5,11 @@ jobs:
   manual_prepare:
     runs-on: Ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
         with:
           fetch-depth: 0
           ref: master
-      - uses: actions/setup-node@master
+      - uses: actions/setup-node@v1
       - run: yarn install
       - run: |
             git config --global user.email "sys.gdp@globis.co.jp"
