@@ -1,3 +1,16 @@
+## [0.2.4](https://github.com/globis-org/frontend-standard/compare/v0.2.3...v0.2.4) (2020-01-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.20.0 ([#41](https://github.com/globis-org/frontend-standard/issues/41)) ([7e0b4b4](https://github.com/globis-org/frontend-standard/commit/7e0b4b4b3b9142fc4e669543e17b36836f5c227a)), closes [#43](https://github.com/globis-org/frontend-standard/issues/43)
+* **deps:** update dependency eslint-plugin-react to v7.18.0 ([#47](https://github.com/globis-org/frontend-standard/issues/47)) ([da67f5b](https://github.com/globis-org/frontend-standard/commit/da67f5bec2a06eda778a77e7ce0956a1e602250e))
+* **deps:** update typescript-eslint monorepo to v2.16.0 ([#42](https://github.com/globis-org/frontend-standard/issues/42)) ([131ce0a](https://github.com/globis-org/frontend-standard/commit/131ce0affb8aa1daf64ddb23cf2e9da32170654a))
+* **deps:** update typescript-eslint monorepo to v2.17.0 ([#51](https://github.com/globis-org/frontend-standard/issues/51)) ([7eb573d](https://github.com/globis-org/frontend-standard/commit/7eb573d4798b204e6dedf271c35bb7d18002b36c))
+* Set version to GitHub actions ([#46](https://github.com/globis-org/frontend-standard/issues/46)) ([816701d](https://github.com/globis-org/frontend-standard/commit/816701d20d4162b2331337c8e30092a6204b82e4))
+
+
+
 ## [0.2.3](https://github.com/globis-org/frontend-standard/compare/v0.2.2...v0.2.3) (2020-01-07)
 
 
