@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/globis-org/frontend-standard/compare/v0.2.4...v0.3.0) (2020-01-27)
+
+
+### Features
+
+* Add import/extensions rule ([#60](https://github.com/globis-org/frontend-standard/issues/60)) ([5d244e8](https://github.com/globis-org/frontend-standard/commit/5d244e8f972f39bde8ea95de8774a203dfa979ee))
+
+
+
 ## [0.2.4](https://github.com/globis-org/frontend-standard/compare/v0.2.3...v0.2.4) (2020-01-21)
 
 
