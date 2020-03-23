@@ -1,3 +1,22 @@
+## [0.3.1](https://github.com/globis-org/frontend-standard/compare/v0.3.0...v0.3.1) (2020-03-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb to v18.1.0 ([#83](https://github.com/globis-org/frontend-standard/issues/83)) ([110a80d](https://github.com/globis-org/frontend-standard/commit/110a80dee465a0729928d854aa6bbc541146717c))
+* **deps:** update dependency eslint-config-prettier to v6.10.0 ([#66](https://github.com/globis-org/frontend-standard/issues/66)) ([f283d45](https://github.com/globis-org/frontend-standard/commit/f283d45e6429948e4c03654684a844bf85a5205b))
+* **deps:** update dependency eslint-config-prettier to v6.10.1 ([#86](https://github.com/globis-org/frontend-standard/issues/86)) ([b7add2c](https://github.com/globis-org/frontend-standard/commit/b7add2c2070267ad23d834b76935732bccb12270))
+* **deps:** update dependency eslint-plugin-import to v2.20.1 ([#71](https://github.com/globis-org/frontend-standard/issues/71)) ([ab3a6d4](https://github.com/globis-org/frontend-standard/commit/ab3a6d4cbfcdc810a8c230425cee08b1912ba984))
+* **deps:** update dependency eslint-plugin-react to v7.18.3 ([#70](https://github.com/globis-org/frontend-standard/issues/70)) ([32ba528](https://github.com/globis-org/frontend-standard/commit/32ba5287360e194d7dc2118bff50c9f093a8859d))
+* **deps:** update dependency eslint-plugin-react to v7.19.0 ([#82](https://github.com/globis-org/frontend-standard/issues/82)) ([6bbfa7d](https://github.com/globis-org/frontend-standard/commit/6bbfa7d0606c5f6648ca00a7818fb1fd15b8176c))
+* **deps:** update dependency eslint-plugin-react-hooks to v2.4.0 ([#74](https://github.com/globis-org/frontend-standard/issues/74)) ([d664ae9](https://github.com/globis-org/frontend-standard/commit/d664ae9d10925a58658e81be27d365caa70ade80))
+* **deps:** update dependency eslint-plugin-react-hooks to v2.5.0 ([#78](https://github.com/globis-org/frontend-standard/issues/78)) ([6485132](https://github.com/globis-org/frontend-standard/commit/6485132aae16df26e43a7a11ed1ef768fadb9e0f))
+* **deps:** update dependency eslint-plugin-react-hooks to v2.5.1 ([#84](https://github.com/globis-org/frontend-standard/issues/84)) ([4f7d5c3](https://github.com/globis-org/frontend-standard/commit/4f7d5c3b54638718926ced13ae9023fc5dba2b5f))
+* **deps:** update typescript-eslint monorepo to v2.21.0 ([#65](https://github.com/globis-org/frontend-standard/issues/65)) ([803cc6f](https://github.com/globis-org/frontend-standard/commit/803cc6f01ac95302f7c6d8148bc60964d4daff2b))
+* **deps:** update typescript-eslint monorepo to v2.24.0 ([#79](https://github.com/globis-org/frontend-standard/issues/79)) ([a2f2adb](https://github.com/globis-org/frontend-standard/commit/a2f2adbb32995b42dec2cf6035ce6f302c67f7be))
+
+
+
 # [0.3.0](https://github.com/globis-org/frontend-standard/compare/v0.2.4...v0.3.0) (2020-01-27)
 
 
