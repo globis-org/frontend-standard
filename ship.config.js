@@ -1,9 +1,10 @@
 module.exports = {
-  publishCommand: ({ defaultCommand }) => `${defaultCommand} --access public`,
+  buildCommand: () => null,
   monorepo: {
     mainVersionFile: 'package.json',
     packagesToBump: ['packages/*'],
     packagesToPublish: ['packages/*'],
   },
-  buildCommand: () => null,
+  publishCommand: ({ defaultCommand }) => `${defaultCommand} --access public`,
+  pullRequestTeamReviewers: ['@globis-org/jser'],
 }
