@@ -6,5 +6,5 @@ module.exports = {
     packagesToPublish: ['packages/*'],
   },
   publishCommand: ({ defaultCommand }) => `${defaultCommand} --access public`,
-  pullRequestTeamReviewers: ['@globis-org/jser'],
+  pullRequestTeamReviewers: ['globis-org/jser'],
 }
