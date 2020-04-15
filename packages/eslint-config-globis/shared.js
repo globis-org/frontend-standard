@@ -3,11 +3,11 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
-    'plugin:prettier/recommended',
+    'prettier',
     'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['prettier', '@typescript-eslint'],
+  plugins: ['@typescript-eslint'],
   rules: {
     // FixMe https://github.com/benmosher/eslint-plugin-import/issues/1615
     'import/extensions': [
