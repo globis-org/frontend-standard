@@ -3,5 +3,12 @@
     "config:base",
     ":pinAllExceptPeerDependencies"
   ],
-  "reviewers": ["team:jser"]
+  "automerge": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "reviewers": ["team:jser"],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
