@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/globis-org/frontend-standard/issues"
   },
-  "version": "0.3.1",
+  "version": "0.4.0",
   "workspaces": {
     "packages": [
       "packages/*"
