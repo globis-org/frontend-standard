@@ -9,5 +9,6 @@ module.exports = {
     'react/jsx-key': ['error', { checkFragmentShorthand: true }],
     'react/jsx-props-no-spreading': 0,
     'react/prop-types': 0,
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
 }
