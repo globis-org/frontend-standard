@@ -1,3 +1,7 @@
+## [0.4.1](https://github.com/globis-org/frontend-standard/compare/v0.4.0...v0.4.1) (2020-07-07)
+
+
+
 # [0.4.0](https://github.com/globis-org/frontend-standard/compare/v0.3.1...v0.4.0) (2020-05-26)
 
 
