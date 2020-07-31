@@ -7,6 +7,19 @@
   "lockFileMaintenance": {
     "enabled": true
   },
+  "packageRules": [
+    {
+      "packagePatterns": ["*"]
+    },
+    {
+      "depTypeList": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "groupName": "devDependencies"
+    }
+  ],
   "reviewers": ["team:jser"],
   "vulnerabilityAlerts": {
     "enabled": true
