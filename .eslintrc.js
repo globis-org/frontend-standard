@@ -1,4 +1,6 @@
 module.exports = {
-  extends: ['airbnb/base', 'plugin:prettier/recommended'],
-  plugins: ['prettier'],
+  extends: ['./packages/eslint-config-globis/base.js'],
+  parserOptions: {
+    project: './tsconfig.eslint.json',
+  },
 }
