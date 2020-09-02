@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/globis-org/frontend-standard/compare/v0.4.1...v0.5.0) (2020-09-02)
+
+
+### Features
+
+* Refine ESLint RuleSet ([#144](https://github.com/globis-org/frontend-standard/issues/144)) ([5f8da26](https://github.com/globis-org/frontend-standard/commit/5f8da26277d6111785ad81b01a1ac9fe151b09fe))
+
+
+
 ## [0.4.1](https://github.com/globis-org/frontend-standard/compare/v0.4.0...v0.4.1) (2020-07-07)
 
 
