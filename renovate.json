@@ -1,14 +1,12 @@
 {
-  "extends": [
-    "config:base",
-    ":pinAllExceptPeerDependencies"
-  ],
+  "extends": ["config:base", ":pinAllExceptPeerDependencies"],
   "automerge": true,
-  "lockFileMaintenance": {
-    "enabled": true
-  },
-  "reviewers": ["team:jser"],
-  "vulnerabilityAlerts": {
-    "enabled": true
-  }
+  "lockFileMaintenance": { "enabled": true },
+  "packageRules": [
+    { "packagePatterns": ["*"] },
+    { "depTypeList": ["dependencies"], "groupName": "dependencies" },
+    { "depTypeList": ["devDependencies"], "groupName": "devDependencies" }
+  ],
+  "reviewers": ["team:globis-org/jser"],
+  "vulnerabilityAlerts": { "enabled": true }
 }
