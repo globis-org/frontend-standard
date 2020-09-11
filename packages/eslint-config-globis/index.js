@@ -1,14 +1,14 @@
 const { rules: reactRules } = require('./rules/react')
 
 module.exports = {
-  rules: {
-    ...reactRules,
-  },
   overrides: [
     {
       // RuleSet for JavaScript
       files: ['**/*.js', '**/*.jsx'],
       extends: ['airbnb', 'airbnb/hooks', './shared.js', 'prettier/react'],
+      rules: {
+        ...reactRules,
+      },
     },
     {
       // RuleSet for TypeScript
@@ -19,6 +19,9 @@ module.exports = {
         './shared.js',
         'prettier/react',
       ],
+      rules: {
+        ...reactRules,
+      },
     },
   ],
 }
