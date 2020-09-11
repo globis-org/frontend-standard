@@ -1,11 +1,24 @@
+const { rules: reactRules } = require('./rules/react')
+
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks', './shared.js', 'prettier/react'],
   rules: {
-    // FixMe https://github.com/yannickcr/eslint-plugin-react/issues/1846
-    'react/button-has-type': 'off',
-    'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
-    'react/jsx-key': ['error', { checkFragmentShorthand: true }],
-    'react/jsx-props-no-spreading': 'off',
-    'react/prop-types': 'off',
+    ...reactRules,
   },
+  overrides: [
+    {
+      // RuleSet for JavaScript
+      files: ['**/*.js', '**/*.jsx'],
+      extends: ['airbnb', 'airbnb/hooks', './shared.js', 'prettier/react'],
+    },
+    {
+      // RuleSet for TypeScript
+      files: ['**/*.ts', '**/*.tsx'],
+      extends: [
+        'airbnb-typescript',
+        'airbnb/hooks',
+        './shared.js',
+        'prettier/react',
+      ],
+    },
+  ],
 }
