@@ -1,3 +1,19 @@
+# [0.6.0](https://github.com/globis-org/frontend-standard/compare/v0.5.0...v0.6.0) (2020-09-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([#153](https://github.com/globis-org/frontend-standard/issues/153)) ([f128177](https://github.com/globis-org/frontend-standard/commit/f128177b1b1c4b44c3dd01e0c2e51c9dfa33a62f))
+* **deps:** update dependencies to v4 (major) ([#155](https://github.com/globis-org/frontend-standard/issues/155)) ([5764dec](https://github.com/globis-org/frontend-standard/commit/5764dece82d1f640a68e1db6c3db369c9792510d))
+* **deps:** update dependency eslint-plugin-react-hooks to v4.1.1 ([#156](https://github.com/globis-org/frontend-standard/issues/156)) ([81c2cad](https://github.com/globis-org/frontend-standard/commit/81c2cadc0b26da2b26297bf935345c1953d3c1ff))
+
+
+### Features
+
+* Switch to eslint-config-airbnb-typescript ([#157](https://github.com/globis-org/frontend-standard/issues/157)) ([5060157](https://github.com/globis-org/frontend-standard/commit/50601578b3c1ef19fa8cbf7a3b0519a9effe7c3c))
+
+
+
 # [0.5.0](https://github.com/globis-org/frontend-standard/compare/v0.4.1...v0.5.0) (2020-09-02)
 
 
