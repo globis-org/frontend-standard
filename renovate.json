@@ -7,6 +7,6 @@
     { "depTypeList": ["dependencies"], "groupName": "dependencies" },
     { "depTypeList": ["devDependencies"], "groupName": "devDependencies" }
   ],
-  "reviewers": ["team:globis-org/jser"],
+  "reviewers": ["team:@globis-org/jser"],
   "vulnerabilityAlerts": { "enabled": true }
 }
