@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/globis-org/frontend-standard/compare/v0.6.0...v0.6.1) (2020-09-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react-hooks to v4.1.2 ([#159](https://github.com/globis-org/frontend-standard/issues/159)) ([33d0bf4](https://github.com/globis-org/frontend-standard/commit/33d0bf45c91f534723df41bfad0ba3b1bd79e264))
+
+
+
 # [0.6.0](https://github.com/globis-org/frontend-standard/compare/v0.5.0...v0.6.0) (2020-09-11)
 
 
