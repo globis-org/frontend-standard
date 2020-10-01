@@ -6,10 +6,13 @@ on:
       - master
 jobs:
   build:
-    name: Build
+    name: Release
     runs-on: Ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: master
       - uses: actions/setup-node@v1
         with:
           registry-url: "https://registry.npmjs.org"
