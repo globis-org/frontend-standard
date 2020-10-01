@@ -1,3 +1,13 @@
+# [1.0.0-alpha.1](https://github.com/globis-org/frontend-standard/compare/v0.6.2...v1.0.0-alpha.1) (2020-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([#169](https://github.com/globis-org/frontend-standard/issues/169)) ([b5f705a](https://github.com/globis-org/frontend-standard/commit/b5f705ab77cfb4cd2de8329152c0d07c6e332e89))
+* **deps:** update dependency eslint-config-airbnb-typescript to v11 ([#170](https://github.com/globis-org/frontend-standard/issues/170)) ([ce7e56e](https://github.com/globis-org/frontend-standard/commit/ce7e56e665f6000e922227668d31a66f0516c83c))
+
+
+
 ## [0.6.2](https://github.com/globis-org/frontend-standard/compare/v0.6.1...v0.6.2) (2020-09-15)
 
 
