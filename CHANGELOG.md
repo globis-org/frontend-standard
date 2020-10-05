@@ -1,3 +1,12 @@
+# [1.0.0-alpha.3](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2020-10-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.21.3 ([#174](https://github.com/globis-org/frontend-standard/issues/174)) ([d99257e](https://github.com/globis-org/frontend-standard/commit/d99257ea5777012fbaaa22fe18bdaa644986491c))
+
+
+
 # [1.0.0-alpha.2](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2020-10-01)
 
 
