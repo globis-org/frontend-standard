@@ -1,3 +1,13 @@
+# [1.0.0-alpha.4](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2020-12-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([#177](https://github.com/globis-org/frontend-standard/issues/177)) ([952f18b](https://github.com/globis-org/frontend-standard/commit/952f18bbf3c68ff434d678c211a357e8bc0f7428))
+* **deps:** update dependencies (major) ([#180](https://github.com/globis-org/frontend-standard/issues/180)) ([ec379f5](https://github.com/globis-org/frontend-standard/commit/ec379f55f032348af366d124ed5cc9021923f9de))
+
+
+
 # [1.0.0-alpha.3](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2020-10-05)
 
 
