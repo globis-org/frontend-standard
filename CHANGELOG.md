@@ -1,3 +1,7 @@
+# [1.0.0](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.4...v1.0.0) (2020-12-16)
+
+
+
 # [1.0.0-alpha.4](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2020-12-16)
 
 
