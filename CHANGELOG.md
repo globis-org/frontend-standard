@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/globis-org/frontend-standard/compare/v1.0.0...v1.0.1) (2021-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([#189](https://github.com/globis-org/frontend-standard/issues/189)) ([0cd8249](https://github.com/globis-org/frontend-standard/commit/0cd824981a6aa9f72d287e8f575b448e467cdcd8))
+
+
+
 # [1.0.0](https://github.com/globis-org/frontend-standard/compare/v1.0.0-alpha.4...v1.0.0) (2020-12-16)
 
 
