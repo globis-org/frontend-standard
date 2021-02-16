@@ -1,4 +1,3 @@
-
 name: Ship js Manual Prepare
 on: deployment
 jobs:
@@ -21,8 +20,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: |
-            git config --global user.email "sys.gdp@globis.co.jp"
-            git config --global user.name "sys-gdp"
+          git config --global user.email "sys.gdp@globis.co.jp"
+          git config --global user.name "sys-gdp"
       - run: yarn release:prepare --yes --no-browse
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
