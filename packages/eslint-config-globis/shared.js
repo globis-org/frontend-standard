@@ -1,8 +1,8 @@
-const { rules: baseRules } = require('./rules/base');
+const { rules: baseRules } = require('./rules/base')
 const {
   rules: baseTypeScriptRules,
   configFileRules: baseTypeScriptConfigFileRules,
-} = require('./rules/typescript');
+} = require('./rules/typescript')
 
 module.exports = {
   rules: { ...baseRules },
@@ -10,6 +10,7 @@ module.exports = {
     {
       // RuleSet for JavaScript
       files: ['**/*.js', '**/*.jsx'],
+      extends: ['prettier'],
     },
     {
       // RuleSet for TypeScript
@@ -17,6 +18,7 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'prettier',
         'prettier/@typescript-eslint',
       ],
       rules: {
@@ -32,4 +34,4 @@ module.exports = {
       ],
     },
   ],
-};
+}
