@@ -10,7 +10,7 @@ module.exports = {
     {
       // RuleSet for JavaScript
       files: ['**/*.js', '**/*.jsx'],
-      extends: ['plugin:prettier/recommended'],
+      extends: ['prettier'],
     },
     {
       // RuleSet for TypeScript
@@ -18,7 +18,7 @@ module.exports = {
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'plugin:prettier/recommended',
+        'prettier',
         'prettier/@typescript-eslint',
       ],
       rules: {

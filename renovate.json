@@ -2,6 +2,7 @@
   "extends": ["config:base", ":pinAllExceptPeerDependencies"],
   "automerge": true,
   "lockFileMaintenance": { "enabled": true },
+  "ignoreDeps": ["husky"],
   "packageRules": [
     { "packagePatterns": ["*"] },
     { "depTypeList": ["dependencies"], "groupName": "dependencies" },
