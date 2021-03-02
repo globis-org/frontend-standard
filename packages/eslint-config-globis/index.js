@@ -5,7 +5,7 @@ module.exports = {
     {
       // RuleSet for JavaScript
       files: ['**/*.js', '**/*.jsx'],
-      extends: ['airbnb', 'airbnb/hooks', './shared.js', 'prettier/react'],
+      extends: ['airbnb', 'airbnb/hooks', './shared.js'],
       rules: {
         ...reactRules,
       },
@@ -13,12 +13,7 @@ module.exports = {
     {
       // RuleSet for TypeScript
       files: ['**/*.ts', '**/*.tsx'],
-      extends: [
-        'airbnb-typescript',
-        'airbnb/hooks',
-        './shared.js',
-        'prettier/react',
-      ],
+      extends: ['airbnb-typescript', 'airbnb/hooks', './shared.js'],
       rules: {
         ...reactRules,
       },
