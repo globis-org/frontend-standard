@@ -1,3 +1,13 @@
+## [1.0.3](https://github.com/globis-org/frontend-standard/compare/v1.0.2...v1.0.3) (2021-03-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies to v4.16.1 ([#201](https://github.com/globis-org/frontend-standard/issues/201)) ([35cc618](https://github.com/globis-org/frontend-standard/commit/35cc61837c81fa23358facd49389a8a601772992))
+* **deps:** update dependency eslint-config-prettier to v8 ([#200](https://github.com/globis-org/frontend-standard/issues/200)) ([9b3bd9e](https://github.com/globis-org/frontend-standard/commit/9b3bd9e0797f677cb780a4efa3d85a28a89d9f9c))
+
+
+
 ## [1.0.2](https://github.com/globis-org/frontend-standard/compare/v1.0.1...v1.0.2) (2021-02-17)
 
 
