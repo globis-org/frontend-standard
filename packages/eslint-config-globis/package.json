@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/globis-org/frontend-standard.git"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "lint": "echo lint",
