@@ -1,13 +1,38 @@
 {
-  "extends": ["config:base", ":pinAllExceptPeerDependencies"],
-  "automerge": true,
-  "lockFileMaintenance": { "enabled": true },
-  "ignoreDeps": ["husky"],
-  "packageRules": [
-    { "packagePatterns": ["*"] },
-    { "depTypeList": ["dependencies"], "groupName": "dependencies" },
-    { "depTypeList": ["devDependencies"], "groupName": "devDependencies" }
+  "extends": [
+    "config:base",
+    ":pinAllExceptPeerDependencies"
   ],
-  "reviewers": ["team:@globis-org/jser"],
-  "vulnerabilityAlerts": { "enabled": true }
+  "automerge": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "ignoreDeps": [
+    "husky"
+  ],
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ]
+    },
+    {
+      "depTypeList": [
+        "dependencies"
+      ],
+      "groupName": "dependencies"
+    },
+    {
+      "depTypeList": [
+        "devDependencies"
+      ],
+      "groupName": "devDependencies"
+    }
+  ],
+  "reviewers": [
+    "team:jser"
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
 }
