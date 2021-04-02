@@ -12,21 +12,21 @@
   ],
   "packageRules": [
     {
-      "packagePatterns": [
+      "matchPackagePatterns": [
         "*"
       ]
     },
     {
-      "depTypeList": [
+      "groupName": "dependencies",
+      "matchDepTypes": [
         "dependencies"
-      ],
-      "groupName": "dependencies"
+      ]
     },
     {
-      "depTypeList": [
+      "groupName": "devDependencies",
+      "matchDepTypes": [
         "devDependencies"
-      ],
-      "groupName": "devDependencies"
+      ]
     }
   ],
   "reviewers": [
