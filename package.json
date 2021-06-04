@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "@globis/frontend-standard",
+  "version": "1.1.0",
   "description": "standard configuraton for frontend development at globis",
   "license": "MIT",
   "homepage": "https://github.com/globis-org/frontend-standard#readme",
@@ -10,12 +11,6 @@
   },
   "bugs": {
     "url": "https://github.com/globis-org/frontend-standard/issues"
-  },
-  "version": "1.0.8",
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
   },
   "scripts": {
     "fix": "run-s fix:*",
@@ -27,6 +22,11 @@
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger",
     "test": "yarn workspaces run test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   },
   "devDependencies": {
     "eslint": "7.27.0",

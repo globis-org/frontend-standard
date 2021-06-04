@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/globis-org/frontend-standard/compare/v1.0.8...v1.1.0) (2021-06-04)
+
+
+### Bug Fixes
+
+* Turn off require-default-props ([#236](https://github.com/globis-org/frontend-standard/issues/236)) ([c339bbd](https://github.com/globis-org/frontend-standard/commit/c339bbdf44f9de13edbe3bf16d190a36187cdbd1))
+* **deps:** update dependencies ([#232](https://github.com/globis-org/frontend-standard/issues/232)) ([451a37b](https://github.com/globis-org/frontend-standard/commit/451a37be21ffdb1f37caf6d92a6677a2ad51e166))
+
+
+
 ## [1.0.8](https://github.com/globis-org/frontend-standard/compare/v1.0.7...v1.0.8) (2021-04-19)
 
 
