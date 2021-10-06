@@ -14,6 +14,7 @@ module.exports = {
     },
     {
       // RuleSet for TypeScript
+      plugins: ['unused-imports'],
       files: ['**/*.ts', '**/*.tsx'],
       extends: [
         'plugin:@typescript-eslint/recommended',
