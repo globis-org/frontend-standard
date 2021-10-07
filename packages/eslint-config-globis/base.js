@@ -3,7 +3,7 @@ module.exports = {
     {
       // RuleSet for JavaScript
       files: ['**/*.js', '**/*.jsx'],
-      extends: ['airbnb/base', './shared.js'],
+      extends: ['airbnb-base', './shared.js'],
     },
     {
       // RuleSet for TypeScript
