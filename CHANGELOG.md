@@ -1,3 +1,12 @@
+# [1.2.0](https://github.com/globis-org/frontend-standard/compare/v1.1.1...v1.2.0) (2021-10-08)
+
+
+### Features
+
+* introduce eslint-plugin-unused-imports ([#246](https://github.com/globis-org/frontend-standard/issues/246)) ([790a1e6](https://github.com/globis-org/frontend-standard/commit/790a1e6b2a9c483a7f189ea50c35c0e171cdaf10))
+
+
+
 ## [1.1.1](https://github.com/globis-org/frontend-standard/compare/v1.1.0...v1.1.1) (2021-10-07)
 
 
