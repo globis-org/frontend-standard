@@ -3,15 +3,7 @@ const rules = {
   '@typescript-eslint/explicit-function-return-type': 'off',
   '@typescript-eslint/explicit-member-accessibility': 'off',
   '@typescript-eslint/explicit-module-boundary-types': 'off',
-  '@typescript-eslint/no-unused-vars': [
-    'error',
-    {
-      vars: 'all',
-      args: 'all',
-      ignoreRestSiblings: false,
-      argsIgnorePattern: '^_',
-    },
-  ],
+  '@typescript-eslint/no-unused-vars': 'off',
   '@typescript-eslint/unbound-method': 'off',
 }
 
