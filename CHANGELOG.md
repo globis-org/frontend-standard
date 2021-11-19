@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/globis-org/frontend-standard/compare/v1.2.0...v1.3.0) (2021-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-airbnb-typescript to v14 ([#244](https://github.com/globis-org/frontend-standard/issues/244)) ([d174a71](https://github.com/globis-org/frontend-standard/commit/d174a71276cf27562961133b95741880a9897659))
+
+
+
 # [1.2.0](https://github.com/globis-org/frontend-standard/compare/v1.1.1...v1.2.0) (2021-10-08)
 
 
