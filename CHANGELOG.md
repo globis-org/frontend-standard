@@ -1,3 +1,12 @@
+## [1.3.1](https://github.com/globis-org/frontend-standard/compare/v1.3.0...v1.3.1) (2021-12-20)
+
+
+### Bug Fixes
+
+* ESLint based on airbnb ([#259](https://github.com/globis-org/frontend-standard/issues/259)) ([4fd8e51](https://github.com/globis-org/frontend-standard/commit/4fd8e51bf05575cfe1f4c46ab9771c820d319433))
+
+
+
 # [1.3.0](https://github.com/globis-org/frontend-standard/compare/v1.2.0...v1.3.0) (2021-11-19)
 
 
