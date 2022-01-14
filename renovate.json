@@ -28,9 +28,6 @@
       ]
     }
   ],
-  "reviewers": [
-    "team:jser"
-  ],
   "vulnerabilityAlerts": {
     "enabled": true
   }
