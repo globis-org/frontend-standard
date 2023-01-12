@@ -1,5 +1,7 @@
 name: Ship js Manual Prepare
-on: deployment
+on:
+  deployment:
+  workflow_dispatch:
 jobs:
   manual_prepare:
     runs-on: Ubuntu-latest
