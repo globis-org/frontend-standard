@@ -14,11 +14,11 @@
     "test": "echo test"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "6.16.0",
-    "@typescript-eslint/parser": "6.16.0",
+    "@typescript-eslint/eslint-plugin": "7.4.0",
+    "@typescript-eslint/parser": "7.4.0",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-airbnb-typescript": "18.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
