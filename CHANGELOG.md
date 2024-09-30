@@ -1,3 +1,7 @@
+## [1.3.5](https://github.com/globis-org/frontend-standard/compare/v1.3.4...v1.3.5) (2024-09-30)
+
+
+
 ## [1.3.4](https://github.com/globis-org/frontend-standard/compare/v1.3.3...v1.3.4) (2023-12-27)
 
 
